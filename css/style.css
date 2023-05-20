@@ -1,0 +1,34 @@
+body{
+    height: 800px;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-row-gap: 50px;
+}
+.parent li{
+    list-style: none;
+    width: 200px;
+    height: 250px;
+}
+.parent h2{
+    font-size: 20px;
+    margin: auto;
+}
+ .content{
+     width: 300px; 
+     height: auto; 
+     margin: auto; 
+} 
+#btn1{
+    margin: auto;
+}
+.salary{
+    margin: auto;
+    width: 150px;
+}
+.p1{
+    margin-top: -20px;
+    color: black;
+}
